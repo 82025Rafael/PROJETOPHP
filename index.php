@@ -37,7 +37,11 @@
                 Id_regiao <input type="text" name="Id_regiao"/>
             </label>
             <br>
-            
+            <label>
+                regiao <input type="text" name="id_regiao"/>
+            </label>
+            <br>
+
             <select></select>
         </fieldset>
     </form>
