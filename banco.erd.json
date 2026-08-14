@@ -43,8 +43,12 @@
         "id": "JOFD1wQYi5YQrZgij33ON",
         "name": "Região",
         "comment": "",
-        "columnIds": [],
-        "seqColumnIds": [],
+        "columnIds": [
+          "LUTLRFEgggz4vCL5XhIwa"
+        ],
+        "seqColumnIds": [
+          "LUTLRFEgggz4vCL5XhIwa"
+        ],
         "ui": {
           "x": 200,
           "y": 100,
@@ -54,12 +58,33 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1786710463704,
+          "updateAt": 1786711045790,
           "createAt": 1786710457089
         }
       }
     },
-    "tableColumnEntities": {},
+    "tableColumnEntities": {
+      "LUTLRFEgggz4vCL5XhIwa": {
+        "id": "LUTLRFEgggz4vCL5XhIwa",
+        "tableId": "JOFD1wQYi5YQrZgij33ON",
+        "name": "id",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1786711050209,
+          "createAt": 1786711045790
+        }
+      }
+    },
     "relationshipEntities": {},
     "indexEntities": {},
     "indexColumnEntities": {},
