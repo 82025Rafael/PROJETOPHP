@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Organização</title>
+</head>
+
+<body>
+
+    <legend>Organização</legend>
+
+    <form action="">
+        
+             <!-- DADOS SOBRE USUARIOS --> 
+        <fieldset>
+
+            <legend>Guilda</legend>
+            <br>
+
+            <label>
+                Usuario <input type="text" name="usuario"/>
+            </label>
+            <br>
+
+            <label>
+                Senha <input type="text" name="senha"/>
+            </label>
+            <br>
+
+            <label>
+                Id_usuario <input type="number" name="Id_"/>
+            </label>
+            <br>
+
+            <label>
+                Email <input type="text" name="Email"/>
+            </label>
+            <br>
+
+
+            <br>
+            <Legend>Sobre a sua regiao</Legend>
+
+            <label>
+                Nome_regiao <input type="text" name="Nome_regiao"/>
+            </label>
+            <br>
+            <label> Periculosidade </label>
+            <select name="periculosidade">
+                <option value="baixa">Baixa</option>
+                <option value="media">Média</option>
+                <option value="alta">Alta</option>
+            </select>
+            <br>
+
+            <label> Tamanho </label>
+            <select name="tamanho">
+                <option value="pequena">Pequena</option>
+                <option value="media">Média</option>
+                <option value="grande">Grande</option>
+            </select>
+            <br>
+            <label> bioma  </label>
+            <select name="bioma">
+                <option value="floresta">Floresta</option>
+                <option value="montanha">Montanha</option>
+                <option value="planicie">Planície</option>
+                <option value="deserto">Deserto</option>
+            </select>
+
+
+            <br><br>
+            <Legend>Sobre a sua Guilda</Legend>
+
+            <label>
+                Id_guilda <input type="number" name="id_guilda"/>
+            </label>
+            <br>
+
+            <label>
+                Tipo_de_guilda
+                <select name="tipo_de_guilda">
+                    <option value="exploradora">Exploradora</option>
+                    <option value="combate">Combate</option>
+                    <option value="medicinal">Medicinal</option>
+                    <option value="mercantil">Mercantil</option>
+                    <option value="magica">Mágica</option>
+                </select>
+            </label>
+            <br>
+
+            <label>
+                Numero_de_instalacoes
+                <input type="number" name="numero_de_instalacoes"/>
+            </label>
+            <br>
+
+            <label>
+                Numero_de_pessoas
+                <input type="number" name="numero_de_pessoas"/>
+            </label>
+            <br>
+
+            <label>
+                Material_de_trabalho
+                <input type="text" name="material_de_trabalho"/>
+            </label>
+            <br>
+
+
+            <br>
+            <Legend>Membros da Guilda</Legend>
+
+            <label>
+                Id_user
+                <input type="number" name="id_user"/>
+            </label>
+            <br>
+
+            <label>
+                Id_guilda
+                <input type="number" name="id_guilda_membro"/>
+            </label>
+            <br>
+
+            <label>
+                Idade
+                <input type="number" name="idade"/>
+            </label>
+            <br>
+
+            <label>
+                Cargo
+                <select name="cargo">
+                    <option value="lider">Líder</option>
+                    <option value="assistente">Assistente</option>
+                    <option value="membro">Membro</option>
+                    <option value="especialista">Especialista</option>
+                    <option value="recruta">Recruta</option>
+                </select>
+            </label>
+            <br>
+
+            <label>
+                Especializacao
+                <input type="text" name="especializacao"/>
+            </label>
+            <br>
+
+
+            <br>
+            <Legend>Sobre a Sede</Legend>
+
+            <label>
+                Id_sede
+                <input type="number" name="id_sede"/>
+            </label>
+            <br>
+
+            <label>
+                Tamanho
+                <select name="tamanho_sede">
+                    <option value="pequena">Pequena</option>
+                    <option value="media">Média</option>
+                    <option value="grande">Grande</option>
+                </select>
+            </label>
+            <br>
+
+            <label>
+                Qualidade_Estrutura
+                <select name="qualidade_estrutura">
+                    <option value="ruim">Ruim</option>
+                    <option value="regular">Regular</option>
+                    <option value="boa">Boa</option>
+                    <option value="excelente">Excelente</option>
+                </select>
+            </label>
+            <br>
+
+            <label>
+                Numero_de_andares
+                <input type="number" name="numero_de_andares"/>
+            </label>
+            <br>
+
+            <label>
+                Porao
+                <select name="porao">
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+            </label>
+            <br>
+
+            <label>
+                Nome_sede
+                <input type="text" name="nome_sede"/>
+            </label>
+            <br>
+
+            <label>
+                Id_guilda
+                <input type="number" name="id_guilda_sede"/>
+            </label>
+            <br>
+
+            <br>
+            <Legend>Sobre o Fornecedor</Legend>
+
+            <label>
+                Id_fornecedor
+                <input type="number" name="id_fornecedor"/>
+            </label>
+            <br>
+
+            <label>
+                Preco
+                <input type="number" name="preco" step="0.01"/>
+            </label>
+            <br>
+
+            <label>
+                Distancia_entrega
+                <input type="number" name="distancia_entrega" step="0.1"/>
+            </label>
+            <br>
+
+            <label>
+                Seguranca_tele
+                <select name="seguranca_tele">
+                    <option value="baixa">Baixa</option>
+                    <option value="media">Média</option>
+                    <option value="alta">Alta</option>
+                </select>
+            </label>
+            <br>
+
+            <label>
+                Email
+                <input type="email" name="email_fornecedor"/>
+            </label>
+            <br>
+
+            <label>
+                Nome_fornecedor
+                <input type="text" name="nome_fornecedor"/>
+            </label>
+            <br>
+
+            <label>
+                Id_guilda
+                <input type="number" name="id_guilda_fornecedor"/>
+            </label>
+            <br>
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
