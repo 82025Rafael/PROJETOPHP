@@ -38,7 +38,11 @@
             </label>
             <br>
             <label>
-                regiao <input type="text" name="id_regiao"/>
+                bioma <input type="text" name="bioma"/>
+            </label>
+            <br>
+            label>
+                periculosidade <input type="text" name="periculosidade"/>
             </label>
             <br>
 
